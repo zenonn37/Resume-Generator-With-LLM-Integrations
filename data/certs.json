@@ -1,0 +1,17 @@
+[
+  {
+    "certification": "CompTIA Security+",
+    "year": 2023,
+    "issuer": "CompTIA"
+  },
+  {
+    "certification": "GIAC Reverse Engineering Malware (GREM)",
+    "year": 2024,
+    "issuer": "GIAC"
+  },
+  {
+    "certification": "Offensive Security Certified Professional (OSCP)",
+    "year": 2025,
+    "issuer": "Offensive Security"
+  }
+]

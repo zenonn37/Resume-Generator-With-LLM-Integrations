@@ -1,0 +1,25 @@
+[
+  {
+    "degree": "High School Diploma",
+    "institution": "Central Valley High School",
+    "location": "Hagerstown, MD",
+    "start_year": 2016,
+    "end_year": 2020
+  },
+  {
+    "degree": "Undergraduate Coursework",
+    "institution": "SUNY Adirondack",
+    "location": "Queensbury, NY",
+    "start_year": 2020,
+    "end_year": 2021,
+    "notes": "Completed one year of foundational computer science before pausing to strengthen advanced math prerequisites."
+  },
+  {
+    "degree": "B.S. Computer Science (In Progress)",
+    "institution": "XYZ University",
+    "location": "City, State",
+    "start_year": 2021,
+    "end_year": 2026,
+    "notes": "Expected graduation: May 2026. GPA: 3.8/4.0"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Polymorphic Shellcode Generator",
+    "description": "C++ framework that applies metamorphic transformations to raw shellcode, automatically adjusting instruction sequences and encoding layers to bypass signature-based defenses in an isolated lab.",
+    "technologies": ["C++", "x86 Assembly"],
+    "duration_months": 4
+  },
+  {
+    "title": "Encrypted PHP C2 Toolkit",
+    "description": "Full‑stack PHP client/server suite using RC4-encrypted TCP sockets to emulate adversary command-and-control channels. Includes multi-threaded listener and web‑UI dashboard for issuing commands.",
+    "technologies": ["PHP", "JavaScript", "RC4"],
+    "duration_months": 3
+  },
+  {
+    "title": "Automated Malware Analysis Pipeline",
+    "description": "Python scripts that integrate Ghidra headlessly to extract IOCs/IOAs from binary samples and generate YARA rules, reducing analysis time by 60%.",
+    "technologies": ["Python", "Ghidra", "YARA"],
+    "duration_months": 5
+  },
+  {
+    "title": "Secure Threat Dashboard",
+    "description": "Built a secure internal web app with PHP, MySQL, and Vue.js to visualize real-time threat feeds, with JWT authentication and role-based access controls.",
+    "technologies": ["PHP", "MySQL", "Vue.js"],
+    "duration_months": 2
+  }
+]

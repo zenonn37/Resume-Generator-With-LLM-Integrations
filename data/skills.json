@@ -1,0 +1,32 @@
+[
+  {
+    "skill": "PHP",
+    "experience_years": 4,
+    "details": "Developed secure APIs and payload delivery clients using raw sockets and RC4 encryption."
+  },
+  {
+    "skill": "C++",
+    "experience_years": 2,
+    "details": "Implemented polymorphic shellcode obfuscation frameworks and custom memory injection routines."
+  },
+  {
+    "skill": "Assembly (x86/x64)",
+    "experience_years": 1.5,
+    "details": "Wrote and analyzed shellcode stubs for buffer overflow exploits and metamorphic payloads."
+  },
+  {
+    "skill": "Python",
+    "experience_years": 3,
+    "details": "Automated malware deobfuscation pipelines and data parsing for threat intelligence."
+  },
+  {
+    "skill": "Reverse Engineering",
+    "experience_years": 2,
+    "details": "Proficient with Ghidra, IDA Pro, and Radare2 to analyze synthetic malware samples."
+  },
+  {
+    "skill": "Network Security",
+    "experience_years": 2,
+    "details": "Designed and intercepted custom C2 channels, simulated APT behaviors in lab networks."
+  }
+]
