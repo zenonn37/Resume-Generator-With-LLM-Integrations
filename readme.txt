@@ -1,11 +1,4 @@
-**Repository Description (short):**
-A lightweight CLI tool for generating tailored PDF resumes from JSON data files, with optional AI-assisted content structuring.
 
----
-
-## README.md
-
-````markdown
 # Resume CLI Generator
 
 A simple, extensible command-line tool to build professional PDF resumes from structured JSON data. Includes interactive editing, AI-powered text-to-JSON conversion, and customizable templates—ideal for software engineers, security specialists, and contractors.
@@ -88,5 +81,3 @@ python resume_cli.py --section personal \
 
 This project is released under the MIT License. Feel free to use, modify, and distribute as needed.
 
-```
-```
