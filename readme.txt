@@ -1,4 +1,3 @@
-```markdown
 # Resume CLI Generator
 
 A simple, extensible command-line tool to build professional PDF resumes from structured JSON data. Includes interactive editing, AI-powered text-to-JSON conversion, and customizable templates—ideal for software engineers, security specialists, and contractors.
@@ -21,32 +20,41 @@ A simple, extensible command-line tool to build professional PDF resumes from st
 
 ```bash
 pip install reportlab openai requests
-```
 
-### Setup
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/resume-cli.git
-   cd resume-cli
-   ```
 
-2. **Populate data files**  
-   Place your JSON files in the `/data` directory:
-   - `personal.json`
-   - `skills.json`
-   - `projects.json`
-   - `education.json`
-   - `certs.json`  
-   *(Use provided placeholders as starting point)*
 
-3. **Configure AI (optional)**
-   - For OpenAI: Set `OPENAI_API_KEY` in environment
-   - For Hugging Face: Set `HF_API_TOKEN`
+Setup
 
-### Usage
+    Clone the repo
+    bash
 
-```bash
+    git clone https://github.com/your-username/resume-cli.git
+    cd resume-cli
+
+    Populate data files
+    Place your JSON files in the /data directory:
+
+        personal.json
+
+        skills.json
+
+        projects.json
+
+        education.json
+
+        certs.json
+        (Use provided placeholders as starting point)
+
+    Configure AI (optional)
+
+        For OpenAI: Set OPENAI_API_KEY in environment
+
+        For Hugging Face: Set HF_API_TOKEN
+
+Usage
+bash
+
 # 1. Interactive update of all sections
 python resume_cli.py --update
 
@@ -57,23 +65,23 @@ python resume_cli.py --generate
 python resume_cli.py --section personal \
     --text "Alex Morgan, a cybersecurity engineer with expertise..." \
     --api openai
-```
 
-## Customization
+Customization
 
-- **Templates**: Swap/extend `draw_paragraph` and layout code in `resume_cli.py`
-- **New Sections**: Add JSON files + rendering blocks for certifications/languages/publications
-- **Output Formats**: Integrate other libraries for Word/HTML exports
+    Templates: Swap/extend draw_paragraph and layout code in resume_cli.py
 
-## Contributing
+    New Sections: Add JSON files + rendering blocks for certifications/languages/publications
 
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/YourFeature`
-3. Commit changes: `git commit -m "Add YourFeature"`
-4. Push branch: `git push origin feature/YourFeature`
-5. Open pull request
+    Output Formats: Integrate other libraries for Word/HTML exports
 
-## License
+Contributing
 
-Released under [MIT License](LICENSE). Use, modify, and distribute freely.
-```
+    Fork the repository
+
+    Create feature branch: git checkout -b feature/YourFeature
+
+    Commit changes: git commit -m "Add YourFeature"
+
+    Push branch: git push origin feature/YourFeature
+
+    Open pull request
