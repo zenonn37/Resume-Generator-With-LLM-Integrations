@@ -1,2 +1,76 @@
 firstresume_test.pdf
+.early.coverage
+# Python-specific ignores
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+*.eggs/
+build/
+dist/
+*.whl
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+.env
 
+# uv-specific ignores
+.uv_cache/
+.uv/
+uv.lock
+.pyproject-cache/
+
+# Virtual environment
+.venv/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS and miscellaneous
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.cache
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+docs/build/
+
+# Other common ignores
+*.sqlite3
+*.db
+*.pid
+*.seed
+*.pid.lock
+*.bak
+*.swp
+*.swo
+*.log
+*.tar.gz
+*.zip
+*.tgz
